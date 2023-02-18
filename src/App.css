@@ -38,6 +38,9 @@
   }
 }
 .topheader {
+  /* position:sticky;
+  top: 0; */
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -49,6 +52,9 @@
 
 
  .navbar {
+  position:sticky;
+  top: 0;
+  width: 100%;
   display: flex;
   align-content: center;
   text-align: center;
@@ -62,6 +68,7 @@ nav li {
   list-style: none;
   display: inline-block;
   margin: 0 20px;
+  font-weight: bold;
   
 }
 
@@ -138,25 +145,89 @@ nav a:hover {
       float: left;
   }
  
-  .form, .aboutpage, .contactpage {
-    background-color: rgb(86,187,205);
+  .form, .aboutpage, .contactpage, .dogPage {
+    background-color: rgb(206, 230, 235);
   }
 
   .aboutpara, .homepage {
-    background-color: rgb(86,187,205);
+    background-color:rgb(206, 230, 235);
     text-align: center;
   padding-left: 250px; 
   padding-right: 250px;  
   }
 
   .dogDisplay {
-    background-color: white;
+    background-color: rgb(206, 230, 235);
+    display: flex;
+
 
   }
 .border{
-  background-color: rgb(86,187,205);
+  background-color: rgb(141, 200, 209);
   border-style: solid;
   border-color: black;
-  margin-right: 500px;
-  margin-left: 500px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+
+ 
+}
+
+
+
+h2{
+  color: blue;
+  text-decoration: underline;
+  
+}
+
+h3{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+Button{
+  padding: 1em;
+  margin: 1em;
+  background-color: antiquewhite;
+}
+
+#success{
+  font-size: 45px;
+  color: green;
+}
+
+.dogPage{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  background-color: rgb(206, 230, 235)
+}
+
+.dogPageContent{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.dogDisplay{
+  padding: 2em;
+}
+
+.dropdown{
+  position: relative;
+}
+
+.dropdown-doggle{
+  position: absolute;
+}
+
+img{
+  border-radius: 30px;
 }

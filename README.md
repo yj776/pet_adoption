@@ -1,6 +1,34 @@
 # Pet Adoption Site
 
-Welcome to our Pet Adoption Website. Here you will be able to browse for a new pet
+Welcome to our Pet Adoption Website. Here you will be able to post and adopt pets! 
+
+
+# About
+Our page allows users to browse available pets and submit requests to have their pet to be adopted. The page was designed by a team of three students from NYU ThriveDx Software Development Program. This project is a basic fullstack project devleoped using technolgies such as React, Boostrap React, CSS, HTML, and Javascirpt. The page connects to a PostgreSQL database using Sequelize to send and receive data. Axios is used to handle API calls, and Express is used to handle server-side routing.
+
+## Technologies
+React
+Bootstrap React
+CSS
+HTML
+JavaScript
+Axios
+Express
+Sequelize
+PostgreSQL
+NodeJS
+
+## Installation
+1. Clone this repository to your local machine.
+2. Install dependencies with npm install
+3. Install nodemon globally to run the server: npm install -g nodemon
+3. Run the server with npm start
+4. Open the application in your browser at http://localhost:3000.
+5. Run nodemon on servers/server.js on PORT 3002: nodemon servers/server.js
+
+## Acknowledgement
+- We would like to thank our instructors Josh Strzeszkowski and Dustin Smith for guiding us through this project. We ran into a few blockers such as the axio calls and debugging edit button functionality, they gave us tips and pointers to resolve the issue. They have also been very supporting and encouraging of us. We would also like to thank each other and all of our previous instructors who helped us develop the knowledge.
+- ChatGPT, Google, NYU Resources
 
 ## Features 
 
@@ -17,12 +45,13 @@ Contact the owners by clicking the email
 
 ## Contact Us
 
-If you have any questions please reach out to us 
+If you have any questions please reach out to us at:
+
 Amy@email.com
 Veny@email.com
 Kamel@email.com
 
-# Getting Started with Create React App
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
